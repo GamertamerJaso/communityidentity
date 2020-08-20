@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<title>Contact</title>
+	<nav>
+		<div class="left">
+			<a href="index.html">COMMUNITY IDENTITY</a>
+		</div>
+		<div class="navbar">
+			<div class="center">
+				<a href="index.html">Thesis</a>
+				<a href="workshop.html">Workshop</a>
+				<a href="design.html">Design</a>
+			</div>
+			<div class="right">
+				<a href="contact.html"  id="selected">Contact</a>
+			</div>
+		</div>
+	</nav>
+	</head>
+	<body>
+		<div class="container">
+				<h2>Feedback Form</h2>
+				<form name="contact" method="POST" data-netlify="true">
+				  <p><label>First Name: <input type="text" name="fname" /></label></p>
+				  <p><label>Last Name: <input type="text" name="lname" /></label></p>
+				  <p><label>Email: <input type="email" name="email" /></label></p>
+				  <p>
+					<label>Area: <select name="area[]" multiple>
+					  <option value="Wanganui">Wanganui</option>
+					  <option value="Rest of NZ">Rest of NZ</option>
+					</select></label>
+				  </p>
+				  <p><label>Message: <textarea name="message"></textarea></label></p>
+				  <p><button type="submit">Submit</button></p>
+				</form>
+			</div>
+	</body>
+</html>
