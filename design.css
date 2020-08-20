@@ -189,6 +189,13 @@ ul.a {
 	top:175px;
 }
 
+.RrightText{
+	position:absolute;
+	left:900px;
+	width:500px;
+	top:375px;
+}
+
 .leftText{
 	position:absolute;
 	top:175px;
