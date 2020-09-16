@@ -209,6 +209,12 @@ ul.a {
 	top:150px;
 }
 
+.rightImga{
+	position:absolute;
+	left:1000px;
+	top:150px;
+}
+
 .links{
 	text-decoration:none;
 	color:#c2a90f;
